@@ -1,0 +1,49 @@
+body {
+  background-color: skyblue;
+}
+
+.img {
+  /* width: 50%;
+  height: 50%; */
+  opacity: 0;
+  transform: translationY(20px);
+  transition: opacity.3s, transform.3s;
+}
+
+.img.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.content {
+  text-align: center;
+}
+
+p {
+  font-size: 40px;
+}
+.image1 {
+  text-align: center;
+}
+
+.image2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  position: fixed;
+  background-color: white;
+}
